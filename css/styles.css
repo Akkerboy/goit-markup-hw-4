@@ -217,6 +217,11 @@ padding: 24px 0 24px 0;
     overflow: hidden;
 }
 
+.section-webstudio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 .list-webstudio{
     display: flex;
@@ -226,12 +231,23 @@ padding: 24px 0 24px 0;
 .item-webstudio{
     width: calc((100% - 72px) / 4);
 }
+
+.icon-webstudio{
+     width: 64;
+     height: 64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+     background-color: #F4F4Fd;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 8px;
+}
     
 
-.section-webstudio{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 
 
 .title-webstudio{
