@@ -80,6 +80,7 @@ ul{
 
 .first-menu{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
 
 }
 
@@ -89,9 +90,7 @@ ul{
     
 }
 
-.first-item-heder{
-    color: #404bbf;
-}
+
 
 .header-list-contacts {
     display: flex;
@@ -418,9 +417,11 @@ display: flex;
     height: 16px;
 }
 
-.link-social-team:hover,
+.link-social-team:hover {
+    background-color: #404bbf;
+}
 .link-social-team:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 
@@ -641,7 +642,10 @@ display: flex;
 }
 
 
-.link-social-footer:hover,
+.link-social-footer:hover {
+    background-color: #31d0aa;
+}
+
 .link-social-team:focus {
     background-color: #31d0aa;
 }
