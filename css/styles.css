@@ -652,10 +652,10 @@ display: flex;
 }
 
 
-.link-social-footer:hover {
+.link-social-footer:hover { 
     background-color: #31d0aa;
 }
 
-.item-social-footer .link-social-team:focus {
-    background-color: #31d0aa;
+.link-social-footer:focus {
+    background-color: #31d0aa; 
 }
